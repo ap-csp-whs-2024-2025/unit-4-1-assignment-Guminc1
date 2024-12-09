@@ -3,7 +3,10 @@
 
 int main()
 {
-  // write code here
+  int age = 10;
+  int petamount = 1;
+  int gradelevel = 11;
+
   
   return 0;
 }
