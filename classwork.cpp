@@ -4,8 +4,8 @@
 int main()
 {
   int age = 10;
-  int petamount = 1;
-  int gradelevel = 11;
+  double price = 19.99;
+  bool hasPets =true;
 
   
   return 0;
