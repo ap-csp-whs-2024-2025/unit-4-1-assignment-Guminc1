@@ -20,5 +20,6 @@ int main()
 
   std::cout << "Hello Master " << Skibidi << " Welcome" << "\n"; 
 
+  std::cout << hasPets <<  "\n";
   return 0;
 }
