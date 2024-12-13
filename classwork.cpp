@@ -3,23 +3,15 @@
 
 int main()
 {
-  int age = 10;
-  double price = 19.99;
-  bool hasPets =true;
-  std::string Skibidi;
-
-  std::string teacher = "Mr. Noob";
-  
-  std::cout << "I am " << age << " years old." << "\n";
-
-  std::cout << "My teacher name is " << teacher << "\n";
-
+  std::string Answer; 
   std::cout << "What is the password?" << "\n";
+  std::cin >> Answer;
 
-  std::cin >> Skibidi;
+  if (Answer == "Skibidi") {
+    std::cout << "Hello Master" << "\n";
+  } else {
+    std::cout << "Wrong" << "\n";
+  }
 
-  std::cout << "Hello Master " << Skibidi << " Welcome" << "\n"; 
-
-  std::cout << hasPets <<  "\n";
   return 0;
 }
